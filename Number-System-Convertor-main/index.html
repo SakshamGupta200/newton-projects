@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CONVERTER</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+
+</head>
+
+<body>
+
+    <div id="heading">
+        <h1 class="converter-title">Base Converter</h1>
+    </div>
+    <div id="main">
+        <div class="inputbox">
+            <div><label for="input">From</label></div>
+            <div><input type="text" placeholder="Input" id="input"></div>
+
+            <div>
+                <select id="inputType">
+                    <option value="Decimal">Decimal</option>
+                    <option value="Hexadecimal">Hexadecimal</option>
+                    <option value="Octal">Octal</option>
+                    <option value="Binary">Binary</option>
+                </select>
+            </div>
+        </div>
+
+        <div id="mid">
+            <span>=</span>
+            <input type="submit" value="convert" id="convert">
+            <section class="swap_section"><input type="submit" value="swap" id="swap"></section>
+
+        </div>
+
+
+        <div class="inputbox">
+            <div><label for="result">To</label></div>
+            <div><input type="text" placeholder="Result" id="result"></div>
+            <div>
+                <select id="resultType">
+                    <option value="Decimal">Decimal</option>
+                    <option value="Hexadecimal">Hexadecimal</option>
+                    <option value="Octal">Octal</option>
+                    <option value="Binary">Binary</option>
+                  </select>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

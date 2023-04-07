@@ -1,0 +1,36 @@
+#main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 200%;
+    text-align: center;
+    margin: 100px;
+}
+
+#mid {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 40px;
+    margin-right: 40px;
+    align-content: space-around;
+}
+
+#heading {
+    text-align: center;
+}
+
+.swap_section {
+    margin-top: 0px;
+}
+
+#input:hover,
+#result:hover,
+#convert:hover,
+#swap:hover,
+#resultType:hover,
+#inputType:hover {
+    /* border: 2px solid rgb(240, 121, 121); */
+    box-shadow: 10px 10px 20px;
+    border-color: 8px solid black;
+}
